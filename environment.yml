@@ -6,6 +6,7 @@ channels:
 dependencies:
   - climateforcing
   - jupyter
+  - nbstripout
 # you might also want:
 #   - fair
 #   - h5py
