@@ -21,6 +21,18 @@ nbstripout --install
 4. Examine .gitignore and decide where you want to put any large input or output datasets that you don't want to commit to GitHub, and fill in these paths.
 
 ## Operation 
+
+### Developing your package
+
+Most of the time your workflow will look like this
+
+```
+conda activate your-env-name
+jupyter notebook
+```
+
+### Updating requirements
+
 As you build the package you will likely want to add more dependencies. Edit the `environment.yml` file and run
 ```
 conda env update -f environment.yml --prune
