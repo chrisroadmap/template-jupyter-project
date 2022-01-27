@@ -6,6 +6,7 @@ Template to use for new python-based Jupyter notebook projects
 This assumes that you are developing with `conda` and `python` 3.7, 3.8 or 3.9. These instructions should work for Windows when using Anaconda Prompt and for MacOS in Terminal (and by extension, likely will work on Linux).
 
 1. Edit the `environment.yml` file:
+  - Uncomment the `name` attribute.
   - After `name`, enter the name you want for your environment. Good practice is to use the same name for the environment as for the repo.
   - Edit the dependencies list as required.
 2. Create your environment:
